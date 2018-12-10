@@ -18,6 +18,10 @@ export class TestPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  begin() {
+    
+  }
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad TestPage');
   }
