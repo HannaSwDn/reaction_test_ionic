@@ -20,8 +20,16 @@ export class TestPage {
 
   begin() {
     // create a randomized number variable
+    let seconds: number;
+    seconds = (Math.random() * 7) + 2;
+    let display: HTMLElement;
+    display = document.getElementById('result')
+    let displaySeconds: string;
+    displaySeconds = String(seconds)
+    display.innerHTML = displaySeconds
 
     // set background color to another color when number variable is reached
+
 
     // create a timer to see how long it takes for user to press screen
 
