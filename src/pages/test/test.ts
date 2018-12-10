@@ -21,12 +21,17 @@ export class TestPage {
   begin() {
     // create a randomized number variable
     let seconds: number;
-    seconds = (Math.random() * 7) + 2;
     let display: HTMLElement;
-    display = document.getElementById('result')
     let displaySeconds: string;
-    displaySeconds = String(seconds)
-    display.innerHTML = displaySeconds
+    display = document.getElementById('result')
+
+    seconds = (Math.random() * 7 + 2) * 1000;
+
+    // display.innerHTML = displaySeconds
+
+    setTimeout(function(){
+      displaySeconds = String(seconds)
+    }, seconds);
 
     // set background color to another color when number variable is reached
 
