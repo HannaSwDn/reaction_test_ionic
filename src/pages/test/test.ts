@@ -19,7 +19,17 @@ export class TestPage {
   }
 
   begin() {
-    
+    // create a randomized number variable
+
+    // set background color to another color when number variable is reached
+
+    // create a timer to see how long it takes for user to press screen
+
+    // change background color back when user presses screen
+
+    // display result in DOM
+
+    // reset result
   }
 
   ionViewDidLoad() {
