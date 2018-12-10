@@ -1,0 +1,13 @@
+// font family
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+ion-icon::before {
+    color: black;
+}
+
+.tab-button-text {
+    color: black;
+    font-family: Montserrat;
+    font-size: 15px;
+    text-transform: uppercase;
+}
